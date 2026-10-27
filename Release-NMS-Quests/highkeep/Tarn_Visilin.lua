@@ -3,7 +3,7 @@ function event_trade(e)
 	local item_lib = require("items");
 
 	if(item_lib.check_turn_in(e.trade, {item1 = 10790})) then -- Coin of Tash
-		e.self:Say("The Coin of Tash. Very good. I have laid a basic enhancement on it - to get it further enhanced you must take the coin to Mizr N'Mar in the Library of Neriak.");
+		e.self:Say("The Coin of Tash. Very good. I have laid a basic enhancement on it - to get it further enhanced you must take the coin to Mizn N'Mar in the Library of Neriak.");
 		e.other:SummonItem(10791); -- Glowing Coin of Tash
 		e.other:Ding();
 		e.other:Faction(5029,10,0); -- Temple of Sol Ro
