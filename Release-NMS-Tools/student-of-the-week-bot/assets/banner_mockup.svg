@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="407" height="173" viewBox="0 0 407 173">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f2a43a"/>
+      <stop offset="0.45" stop-color="#7a3fa0"/>
+      <stop offset="1" stop-color="#1d1a4d"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff2b0"/>
+      <stop offset="1" stop-color="#d9962b"/>
+    </linearGradient>
+  </defs>
+  <rect x="3" y="3" width="401" height="167" rx="12" fill="url(#bg)" stroke="#c9a24a" stroke-width="3"/>
+  <rect x="9" y="9" width="389" height="155" rx="9" fill="none" stroke="#e8c66a" stroke-opacity="0.6" stroke-width="1"/>
+
+  <text x="203" y="38" text-anchor="middle" font-family="Georgia, serif" font-size="13" letter-spacing="3" fill="#ffe9a8">NMS TRIUNE</text>
+  <text x="203" y="76" text-anchor="middle" font-family="Georgia, serif" font-weight="bold" font-size="30" fill="url(#gold)" stroke="#3a1c52" stroke-width="1">Student of the Week</text>
+
+  <rect x="40" y="88" width="327" height="34" rx="6" fill="#120d2b" fill-opacity="0.65" stroke="#c9a24a" stroke-width="1"/>
+  <text x="203" y="102" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#cfc3ee">This week's featured submission</text>
+  <text x="203" y="116" text-anchor="middle" font-family="Georgia, serif" font-weight="bold" font-size="13" fill="#ffffff">[ Title by Player Name ]</text>
+
+  <rect x="128" y="130" width="151" height="26" rx="13" fill="#e8b23a" stroke="#fff2b0" stroke-width="1"/>
+  <text x="203" y="148" text-anchor="middle" font-family="Georgia, serif" font-weight="bold" font-size="14" fill="#2a1240">View on Discord</text>
+</svg>
